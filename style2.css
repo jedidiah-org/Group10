@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #363333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 2rem;
+    margin: 1rem 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem; /* Scales with body font size */
+}
+
+.register {
+    margin: 1rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+.hero-header {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.info-hero {
+    background-color: #B5EEA5;
+    padding: 2rem;
+    border-radius: 1rem;
+    max-width: 90%;
+    margin: 2rem auto;
+}
+
+.info-hero p {
+    color: white;
+    margin-bottom: 0.5rem;
+}
+
+.girl-pc,
+.guy-prod,
+.pc-girl,
+.pc-guy,
+.man-pointing {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 1rem;
+    margin: 1rem auto;
+}
+
+.about {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-header {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.woman-call {
+    width: 90%;
+    max-width: 600px;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+.about-writeup {
+    color: white;
+    font-size: 1rem;
+    margin: 1rem auto;
+    max-width: 700px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.about-days,
+.about-speakers,
+.about-sessions {
+    flex: 1;
+    background-color: #363333;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    min-width: 100px;
+}
+
+.high-p {
+    font-size: 2rem;
+    color: #B5EEA5;
+}
+
+.low-p {
+    font-size: 1rem;
+    color: aliceblue;
+}
+
+.speakers {
+    padding: 2rem;
+    text-align: center;
+}
+
+.speakers-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.speaker {
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.speaker img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.faq-container {
+    max-width: 90%;
+    margin: 2rem auto;
+}
+
+.faq-item {
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    overflow: hidden;
+}
+
+.faq-question {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.faq-answer {
+    padding: 1rem;
+    display: none;
+    background-color: #fff;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+}
+
+.faq-item.open .faq-answer {
+    display: block;
+}
+
+footer {
+    padding: 2rem;
+    background-color: #363333;
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0.5rem;
+}
+
+
+@media (max-width: 768px) {
+    .hero-header {
+        font-size: 1.5rem;
+    }
+
+    .info-hero {
+        padding: 1rem;
+    }
+
+    .about-info {
+        flex-direction: column;
+    }
+
+    .faq-container {
+        padding: 1rem;
+    }
+}
